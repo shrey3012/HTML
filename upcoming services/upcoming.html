@@ -48,18 +48,18 @@
             <h1>Welcome,<b>Sandip!</b></h1>
         </section>
 
-        <section class="service">
+        <section class="service mt-5">
             <div class="d-flex align-items-start">
                 <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+                    <button class="nav-link" id="v-pills-home-tab" data-bs-toggle="pill"
                         data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
-                        aria-selected="true">Dashboard</button>
+                        aria-selected="false">Dashboard</button>
                     <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
                         data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
                         aria-selected="false">New Service Request</button>
-                    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
+                    <button class="nav-link active" id="v-pills-messages-tab" data-bs-toggle="pill"
                         data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
-                        aria-selected="false">Upcoming Services</button>
+                        aria-selected="true">Upcoming Services</button>
                     <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
                         data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
                         aria-selected="false">Service Schedule</button>
@@ -74,136 +74,138 @@
                         aria-selected="false">block Customer</button>
             </div>
                 <div class="tab-content" id="v-pills-tabContent">
-                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                    <div class="tab-pane fade" id="v-pills-home" role="tabpanel"
                         aria-labelledby="v-pills-home-tab"> </div>
                     <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
                         aria-labelledby="v-pills-profile-tab"> </div>
-                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                    <div class="tab-pane fade show active" id="v-pills-messages" role="tabpanel"
                         aria-labelledby="v-pills-messages-tab">
-                        <table>
-                            <!--   The Head of The Table -->
-                            <thead>
-                                <tr>
-                                    <th>Service ID <img src="img/forma-1_2.png" alt=""></th>
-                                    <th>Service Date <img src="img/forma-1_2.png" alt=""></th>
-                                    <th>Customer Details <img src="img/forma-1_2.png" alt=""></th>
-                                    <th>Distance <img src="img/forma-1_2.png" alt=""></th>
-                                    <th style="padding-left: 24px;">Action</th>
-                                </tr>
-                                <!--  End of The Head -->
-                            </thead>
-                            <!--   The Body of The Table -->
-                            <tbody>
-                                <!--          First Row -->
-                                <tr>
-                                    <td>323436</td>
-                                    <td> <img src="img/cal.png" alt=""> 30/30/30
-                                        <img src="img/clock.png" alt=""> 12:00-18:00
-                                    </td>
-                                    <td>David Bough
-                                        <img src="img/home.png" alt=""> Musterstrabe 5,12345 Bonn
-                                    </td>
-                                    <td>15 Km</td>
-                                    <td><a class="btn" href="">Cancle</a></td>
-                                </tr>
-                                <!--         Second Row -->
-                                <tr>
-                                    <td>323436</td>
-                                    <td> <img src="img/cal.png" alt=""> 30/30/30
-                                        <img src="img/clock.png" alt=""> 12:00-18:00
-                                    </td>
-                                    <td>David Bough
-                                        <img src="img/home.png" alt=""> Musterstrabe 5,12345 Bonn
-                                    </td>
-                                    <td>15 Km</td>
-                                    <td><a class="btn" href="">Cancle</a></td>
-                                </tr>
-                                <!-- third row -->
-                                <tr>
-                                    <td>323436</td>
-                                    <td> <img src="img/cal.png" alt=""> 30/30/30
-                                        <img src="img/clock.png" alt=""> 12:00-18:00
-                                    </td>
-                                    <td>David Bough
-                                        <img src="img/home.png" alt=""> Musterstrabe 5,12345 Bonn
-                                    </td>
-                                    <td>15 Km</td>
-                                    <td><a class="btn" href="">Cancle</a></td>
-                                </tr>
-                                <!-- Fourth Row -->
-                                <tr>
-                                    <td>323436</td>
-                                    <td> <img src="img/cal.png" alt=""> 30/30/30
-                                        <img src="img/clock.png" alt=""> 12:00-18:00
-                                    </td>
-                                    <td>David Bough
-                                        <img src="img/home.png" alt=""> Musterstrabe 5,12345 Bonn
-                                    </td>
-                                    <td>15 Km</td>
-                                    <td><a class="btn" href="">Cancle</a></td>
-                                </tr>
-                                <!--  Fifth Row -->
-                                <tr>
-                                    <td>323436</td>
-                                    <td> <img src="img/cal.png" alt=""> 30/30/30
-                                        <img src="img/clock.png" alt=""> 12:00-18:00
-                                    </td>
-                                    <td>David Bough
-                                        <img src="img/home.png" alt=""> Musterstrabe 5,12345 Bonn
-                                    </td>
-                                    <td>15 Km</td>
-                                    <td><a class="btn" href="">Cancle</a></td>
-                                </tr>
-                                <!-- Sixth Row -->
-                                <tr>
-                                    <td>323436</td>
-                                    <td> <img src="img/cal.png" alt=""> 30/30/30
-                                        <img src="img/clock.png" alt=""> 12:00-18:00
-                                    </td>
-                                    <td>David Bough
-                                        <img src="img/home.png" alt=""> Musterstrabe 5,12345 Bonn
-                                    </td>
-                                    <td>15 Km</td>
-                                    <td><a class="btn" href="">Cancle</a></td>
-                                </tr>
-                                <tr>
-                                    <td>323436</td>
-                                    <td> <img src="img/cal.png" alt=""> 30/30/30
-                                        <img src="img/clock.png" alt=""> 12:00-18:00
-                                    </td>
-                                    <td>David Bough
-                                        <img src="img/home.png" alt=""> Musterstrabe 5,12345 Bonn
-                                    </td>
-                                    <td>15 Km</td>
-                                    <td><a class="btn" href="">Cancle</a></td>
-                                </tr>
-                                <tr>
-                                    <td>323436</td>
-                                    <td> <img src="img/cal.png" alt=""> 30/30/30
-                                        <img src="img/clock.png" alt=""> 12:00-18:00
-                                    </td>
-                                    <td>David Bough
-                                        <img src="img/home.png" alt=""> Musterstrabe 5,12345 Bonn
-                                    </td>
-                                    <td>15 Km</td>
-                                    <td><a class="btn" href="">Cancle</a></td>
-                                </tr>
-                                <tr>
-                                    <td>323436</td>
-                                    <td> <img src="img/cal.png" alt=""> 30/30/30
-                                        <img src="img/clock.png" alt=""> 12:00-18:00
-                                    </td>
-                                    <td>David Bough
-                                        <img src="img/home.png" alt=""> Musterstrabe 5,12345 Bonn
-                                    </td>
-                                    <td>15 Km</td>
-                                    <td><a class="btn" href="">Cancle</a></td>
-                                </tr>
-
-                                <!-- End of The of The Table -->
-                            </tbody>
-                            <!-- End of The Table -->
-                        </table>
+                        <div class="container table-responsive">
+                            <table>
+                                <!--   The Head of The Table -->
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Service ID <img src="img/forma-1_2.png" alt=""></th>
+                                        <th scope="col">Service Date <img src="img/forma-1_2.png" alt=""></th>
+                                        <th scope="col">Customer Details <img src="img/forma-1_2.png" alt=""></th>
+                                        <th scope="col">Distance <img src="img/forma-1_2.png" alt=""></th>
+                                        <th scope="col" style="padding-left: 24px;">Action</th>
+                                    </tr>
+                                    <!--  End of The Head -->
+                                </thead>
+                                <!--   The Body of The Table -->
+                                <tbody>
+                                    <!--          First Row -->
+                                    <tr scope="row">
+                                        <td>323436</td>
+                                        <td> <img src="img/cal.png" alt=""> 30/30/30
+                                            <img src="img/clock.png" alt=""> 12:00-18:00
+                                        </td>
+                                        <td>David Bough
+                                            <img src="img/home.png" alt=""> Musterstrabe 5,12345 Bonn
+                                        </td>
+                                        <td>15 Km</td>
+                                        <td><a class="btn" href="">Cancle</a></td>
+                                    </tr>
+                                    <!--         Second Row -->
+                                    <tr scope="row">
+                                        <td>323436</td>
+                                        <td> <img src="img/cal.png" alt=""> 30/30/30
+                                            <img src="img/clock.png" alt=""> 12:00-18:00
+                                        </td>
+                                        <td>David Bough
+                                            <img src="img/home.png" alt=""> Musterstrabe 5,12345 Bonn
+                                        </td>
+                                        <td>15 Km</td>
+                                        <td><a class="btn" href="">Cancle</a></td>
+                                    </tr>
+                                    <!-- third row -->
+                                    <tr scope="row">
+                                        <td>323436</td>
+                                        <td> <img src="img/cal.png" alt=""> 30/30/30
+                                            <img src="img/clock.png" alt=""> 12:00-18:00
+                                        </td>
+                                        <td>David Bough
+                                            <img src="img/home.png" alt=""> Musterstrabe 5,12345 Bonn
+                                        </td>
+                                        <td>15 Km</td>
+                                        <td><a class="btn" href="">Cancle</a></td>
+                                    </tr>
+                                    <!-- Fourth Row -->
+                                    <tr scope="row">
+                                        <td>323436</td>
+                                        <td> <img src="img/cal.png" alt=""> 30/30/30
+                                            <img src="img/clock.png" alt=""> 12:00-18:00
+                                        </td>
+                                        <td>David Bough
+                                            <img src="img/home.png" alt=""> Musterstrabe 5,12345 Bonn
+                                        </td>
+                                        <td>15 Km</td>
+                                        <td><a class="btn" href="">Cancle</a></td>
+                                    </tr>
+                                    <!--  Fifth Row -->
+                                    <tr scope="row">
+                                        <td>323436</td>
+                                        <td> <img src="img/cal.png" alt=""> 30/30/30
+                                            <img src="img/clock.png" alt=""> 12:00-18:00
+                                        </td>
+                                        <td>David Bough
+                                            <img src="img/home.png" alt=""> Musterstrabe 5,12345 Bonn
+                                        </td>
+                                        <td>15 Km</td>
+                                        <td><a class="btn" href="">Cancle</a></td>
+                                    </tr>
+                                    <!-- Sixth Row -->
+                                    <tr scope="row">
+                                        <td>323436</td>
+                                        <td> <img src="img/cal.png" alt=""> 30/30/30
+                                            <img src="img/clock.png" alt=""> 12:00-18:00
+                                        </td>
+                                        <td>David Bough
+                                            <img src="img/home.png" alt=""> Musterstrabe 5,12345 Bonn
+                                        </td>
+                                        <td>15 Km</td>
+                                        <td><a class="btn" href="">Cancle</a></td>
+                                    </tr>
+                                    <tr scope="row">
+                                        <td>323436</td>
+                                        <td> <img src="img/cal.png" alt=""> 30/30/30
+                                            <img src="img/clock.png" alt=""> 12:00-18:00
+                                        </td>
+                                        <td>David Bough
+                                            <img src="img/home.png" alt=""> Musterstrabe 5,12345 Bonn
+                                        </td>
+                                        <td>15 Km</td>
+                                        <td><a class="btn" href="">Cancle</a></td>
+                                    </tr>
+                                    <tr scope="row">
+                                        <td>323436</td>
+                                        <td> <img src="img/cal.png" alt=""> 30/30/30
+                                            <img src="img/clock.png" alt=""> 12:00-18:00
+                                        </td>
+                                        <td>David Bough
+                                            <img src="img/home.png" alt=""> Musterstrabe 5,12345 Bonn
+                                        </td>
+                                        <td>15 Km</td>
+                                        <td><a class="btn" href="">Cancle</a></td>
+                                    </tr>
+                                    <tr scope="row">
+                                        <td>323436</td>
+                                        <td> <img src="img/cal.png" alt=""> 30/30/30
+                                            <img src="img/clock.png" alt=""> 12:00-18:00
+                                        </td>
+                                        <td>David Bough
+                                            <img src="img/home.png" alt=""> Musterstrabe 5,12345 Bonn
+                                        </td>
+                                        <td>15 Km</td>
+                                        <td><a class="btn" href="">Cancle</a></td>
+                                    </tr>
+    
+                                    <!-- End of The of The Table -->
+                                </tbody>
+                                <!-- End of The Table -->
+                            </table>
+                        </div>
                     </div>
                     <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
                         aria-labelledby="v-pills-settings-tab"> </div>

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 body { font-family: 'Roboto' }
 /* .container { max-width: 1262px; padding: 0 50px; width: 100%; } */
+/* Navbar start */
 .navbar{
     height: 64px;
     padding: 4px 15px 4px;
@@ -59,6 +60,10 @@ body { font-family: 'Roboto' }
     height: 6px;
     margin: 4px 0px 19px 7px;
   }
+/* Navbar end */
+
+
+  /* Main start */
   .welcome{
     height: 119px;
     margin-top: 65px;
@@ -68,36 +73,35 @@ body { font-family: 'Roboto' }
       text-align: center;
       padding: 38.42px 0 43.59px;
   }
-  /* .service .container{
-      width: 1140px;
-  } */
-  .service{
-    width: 262px;
-    height: 712px;
-    margin: 31px 0 0 210px;
-    background: #1D7A8C 0% 0% no-repeat padding-box;
-    opacity: 1;
+  .nav-pills{
+    background-color: #1d7a8c;
+    margin-left: 20px;
+    
   }
   .nav-pills .nav-link {
-  text-align: left;
-  color: #ffffff;
-  border-bottom: 0.1px solid;
-    border-style: revert;
-    width: 262px;
-  }
+      text-align: left;
+      color: #ffffff;
+      border-bottom: 0.1px solid #E5E5E5;
+      border-style: groove;
+      height: 44px;
+      }
   .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #fff;
-    background-color: #146371;
-}
+      color: #fff;
+      background-color: #146371;
+  }
+  .heading ul li{
+      display: inline-block;
+      list-style: none;
+  }
 * {
     box-sizing: border-box;
   }
   /* The Table Attributes */
   table {
     text-align: left;
-    width: 847px;
-      height: 713px;
-      border: #525252 1px solid;
+    width: auto;
+    height: auto;
+    border: #525252 1px solid;
   }
   tr{
       border-bottom: 1px solid #e1e1e1;
@@ -106,7 +110,7 @@ body { font-family: 'Roboto' }
   /* The Attributes that the Head and the Body of the Table Share */
   th,
   td {
-    padding: 10px;
+    padding: 15px;
     
   }
   /* Attributes of the Head of the Body */
@@ -144,6 +148,5 @@ body { font-family: 'Roboto' }
   .site-footer ul.social-media-list a { width: 20px; height: 20px; transition: opacity 0.3s; }
   .site-footer ul.social-media-list li:last-child { margin-left: 20px; }
   .site-footer .footer-bottom { background: #292929; padding: 19px 0; position: relative; }
-  .ok-btn { position: absolute; text-decoration: none; color: #4F4F4F !important; background: #EED507; border-radius: 20px; width: 99px; height: 40px; line-height: 40px; right: 15px; top: 50%; transform: translateY(-50%); }
   .site-footer .footer-bottom p { color: #f1f1f1; margin-bottom: 0; font-size: 14px; }
   .site-footer .footer-bottom p a { text-decoration: none; color: #6EABEF; }

@@ -80,7 +80,7 @@ jQuery(document).ready(function() {
     jQuery('.scroll-link').click(function(e){
         e.preventDefault();
         jQuery('html,body').animate({
-            scrollTop:jQuery('.scroll-section').offset().top - jQuery('.site-header').outerHeight()
+            scrollTop:jQuery('.how-it-work').offset().top - jQuery('.site-header').outerHeight()
         },1000);
     });
     jQuery('.scroll-top').click(function(e){

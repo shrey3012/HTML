@@ -46,14 +46,10 @@ nav ul li a{
     margin: 62px 0 39px; 
   }
  .few-words h1{
-    margin: 39px 195px 18px 194px;
+    margin: 39px 0 18px 0;
     font-family: Roboto;
     font-size: 36px;
     font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 0.67;
-    letter-spacing: normal;
     text-align: center;
     color: #4f4f4f;
   }
@@ -78,7 +74,7 @@ nav ul li a{
     color: var(--brownish-grey);
   }
   .our-story h1{
-    margin: 78px 195px 18px 194px;
+    margin: 78px 0 18px 0;
     font-family: Roboto;
     font-size: 36px;
     font-weight: 500;

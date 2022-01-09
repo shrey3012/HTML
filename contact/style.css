@@ -46,7 +46,7 @@ nav ul li a{
   color: #fff;
   width: 163px;
   height: 46px;
-  margin: 15px 198px 0px 199px;
+  margin: 15px 0 0px 0;
   padding: 9px 50px 17px 49px;
   border-radius: 23px;
   background-color: #1d7a8c;
@@ -62,7 +62,7 @@ nav ul li a{
   margin: 62px 0 39px; 
 }
 h1{
-  margin: 39px 195px 18px 194px;
+  margin: 39px 0 18px 0;
   font-family: Roboto;
   font-size: 36px;
   font-weight: 500;
@@ -80,9 +80,6 @@ table.center {
 .c-logo{
   padding-top: 52px;
 }
-.contactus .container{
-  width: 908px;
-}
 .c-logo  .lo-wrapper p{
   padding-top: 18px;
 }
@@ -99,14 +96,14 @@ table.center {
 
 /*get in touch*/
 .get-in-touch .container{
-  width: 666px;
+  max-width: 666px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
 .get-in-touch h2{
-  margin: 40px 156px 30px;
+  margin: 40px 0 30px;
   font-family: Roboto;
   font-size: 28px;
   font-weight: bold;
@@ -146,7 +143,6 @@ table.center {
 .site-footer ul.social-media-list a { width: 20px; height: 20px; transition: opacity 0.3s; }
 .site-footer ul.social-media-list li:last-child { margin-left: 20px; }
 .site-footer .footer-bottom { background: #292929; padding: 19px 0; position: relative; }
-.ok-btn { position: absolute; text-decoration: none; color: #4F4F4F !important; background: #EED507; border-radius: 20px; width: 99px; height: 40px; line-height: 40px; right: 15px; top: 50%; transform: translateY(-50%); }
 .site-footer .footer-bottom p { color: #f1f1f1; margin-bottom: 0; font-size: 14px; }
 .site-footer .footer-bottom p a { text-decoration: none; color: #6EABEF; }
 
